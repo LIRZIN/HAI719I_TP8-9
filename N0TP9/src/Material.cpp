@@ -46,7 +46,7 @@ void Material::init()
 	cur_material = 0;
 	// TODO : set initial parameters
 	m_color = {1.0, 1.0, 1.0, 1.0};
-	m_texture = loadTexture2DFromFilePath("DuckTexture.png");
+	m_texture = loadTexture2DFromFilePath("WaterBottleTexture.png");
 	m_metalnessmap = loadTexture2DFromFilePath("metalnessmap2.png");
 	m_roughnessmap = loadTexture2DFromFilePath("metalnessmap2.png");
 	m_AOmap = loadTexture2DFromFilePath("AOmap2.png");
